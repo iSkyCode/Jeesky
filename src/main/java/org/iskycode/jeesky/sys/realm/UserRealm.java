@@ -1,4 +1,4 @@
-package org.iskycode.jeesky.realm;
+package org.iskycode.jeesky.sys.realm;
 
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
@@ -6,10 +6,10 @@ import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.util.ByteSource;
-import org.iskycode.jeesky.entity.Permission;
-import org.iskycode.jeesky.entity.Role;
-import org.iskycode.jeesky.entity.User;
-import org.iskycode.jeesky.service.UserService;
+import org.iskycode.jeesky.sys.entity.Permission;
+import org.iskycode.jeesky.sys.entity.Role;
+import org.iskycode.jeesky.sys.entity.User;
+import org.iskycode.jeesky.sys.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

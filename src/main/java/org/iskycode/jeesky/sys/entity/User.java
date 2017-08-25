@@ -1,4 +1,4 @@
-package org.iskycode.jeesky.entity;
+package org.iskycode.jeesky.sys.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

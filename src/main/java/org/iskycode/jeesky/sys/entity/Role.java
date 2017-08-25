@@ -1,19 +1,17 @@
-package org.iskycode.jeesky.entity;
+package org.iskycode.jeesky.sys.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class Permission {
+public class Role {
+
     @Id
     @GeneratedValue
     private String id;
 
     private String name;
-
-    private String sign;
-
 
     public String getId() {
         return id;
@@ -29,13 +27,5 @@ public class Permission {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getSign() {
-        return sign;
-    }
-
-    public void setSign(String sign) {
-        this.sign = sign;
     }
 }
