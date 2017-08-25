@@ -5,16 +5,13 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class User {
+public class Role {
+
     @Id
     @GeneratedValue
     private String id;
 
     private String name;
-
-    private String nickname;
-
-    private String password;
 
     public String getId() {
         return id;
@@ -30,25 +27,5 @@ public class User {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public String getNickname() {
-        return nickname;
-    }
-
-    public void setNickname(String nickname) {
-        this.nickname = nickname;
-    }
-
-    public byte[] getCredentialsSalt() {
-        return null;
     }
 }
