@@ -1,3 +1,4 @@
+/*
 package org.iskycode.jeesky.sys.realm;
 
 import org.apache.shiro.authc.*;
@@ -58,3 +59,4 @@ public class UserRealm extends AuthorizingRealm {
         return authenticationInfo;
     }
 }
+*/

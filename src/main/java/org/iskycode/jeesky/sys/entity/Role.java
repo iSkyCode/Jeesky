@@ -3,8 +3,10 @@ package org.iskycode.jeesky.sys.entity;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "sys_role")
 public class Role {
 
     @Id

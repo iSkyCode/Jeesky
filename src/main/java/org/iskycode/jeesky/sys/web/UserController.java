@@ -1,4 +1,4 @@
-package org.iskycode.jeesky.cms;
+package org.iskycode.jeesky.sys.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
